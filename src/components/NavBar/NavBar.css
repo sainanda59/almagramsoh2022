@@ -1,0 +1,109 @@
+button{
+    border: none;
+    background: #2c2b2b;
+    width: 250px;
+    padding: 10px 0px;
+    font-weight: 600;
+    color: #eee;
+    letter-spacing: 0.1rem;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid rgb(223, 22, 72) !important;
+    background: rgb(226, 20, 82);
+    color: rgb(243, 236, 238);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+.active,  .NavBar .NavBar-body .nav-items a:hover{
+    color: rgb(216, 10, 61) !important;
+    font-weight: 500;
+    
+}
+
+.NavBar{
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 7px 0px #060708; */
+}
+
+.NavBar .NavBar-body{
+    height: 60px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavBar .NavBar-body .logo{
+    width: 50px;
+    height: 50px;
+    background-color: #eef;
+    background-image: linear-gradient(to right, rgb(247, 95, 95) , rgb(108, 0, 196));
+    border-radius: 50%;
+}
+
+.NavBar .NavBar-body .logo p{
+    /* position: absolute; */
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-left: 17px;
+    color: black;
+}
+
+.NavBar .NavBar-body .nav-items{
+    width: 38%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NavBar .NavBar-body .nav-items a{
+    color: rgb(31, 31, 32);
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+    transition: 600ms ease-in-out;
+    cursor: pointer;
+}
+
+.NavBar .NavBar-body .nav-items  button{
+    width: 100px;
+}
+
+.NavBar .NavBar-body .nav-items  button a{
+    color: #eee;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.NavBar .hr{
+    width: 90%;
+}
+
+.NavBar .hr hr{
+    width: 100%;
+    margin-left: 4%;
+    border: none;
+    background: #222;
+    height: 1px;
+}
+
+.NavBar .logo p{
+    color: black;
+}
