@@ -5,6 +5,7 @@ import Referral from "./components/Referral/Referral";
 import Collab from "./components/Collab/Collab"
 import HomePage from "./components/HomePage/HomePage";
 import Protected from "./components/Protected/Protected";
+import Profile from "./components/Profile/Profile";
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
           <Route exact path='/' element={<Protected><HomePage /></Protected>} />  
           <Route exact path='/chat' element={<Protected><Chat /></Protected>} />
           <Route exact path='/referral' element={<Protected><Referral /></Protected>} />
-          <Route exact path='/collab' element={<Protected><Collab /></Protected>} />
+          <Route exact path='/profile' element={<Protected><Profile /></Protected>} />
         </Routes>
         </Router>
       </div>
