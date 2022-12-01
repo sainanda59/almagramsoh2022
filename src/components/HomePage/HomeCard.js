@@ -14,7 +14,7 @@ export default function HomeCard() {
     <div class="BM2container">
         <div className='BM2_Title'>EVENTS & MEETS</div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card-content">
                     <div class="card-img">
                         <img src={feve1} alt=""/>
@@ -27,7 +27,7 @@ export default function HomeCard() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card-content">
                     <div class="card-img">
                         <img src={feve2} alt=""/>
@@ -40,7 +40,7 @@ export default function HomeCard() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card-content">
                     <div class="card-img">
                         <img src={feve3} alt=""/>
@@ -53,7 +53,7 @@ export default function HomeCard() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card-content">
                     <div class="card-img">
                         <img src={feve4} alt=""/>
@@ -66,7 +66,7 @@ export default function HomeCard() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card-content">
                     <div class="card-img">
                         <img src={feve5} alt=""/>
@@ -79,7 +79,7 @@ export default function HomeCard() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card-content">
                     <div class="card-img">
                         <img src={feve6} alt=""/>
@@ -92,7 +92,7 @@ export default function HomeCard() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card-content">
                     <div class="card-img">
                         <img src={feve7} alt=""/>
@@ -105,7 +105,7 @@ export default function HomeCard() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card-content">
                     <div class="card-img">
                         <img src={feve8} alt=""/>
