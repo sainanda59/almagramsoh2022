@@ -32,11 +32,11 @@ a{
 
 .NavBar{
     font-family: 'Poppins', sans-serif;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     z-index: 100;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: rgb(255, 255, 255);
     /* box-shadow: 0px 0px 7px 0px #060708; */
 }
