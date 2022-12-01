@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Chat from "./components/Chat/Chat";
 import Referral from "./components/Referral/Referral";
 import Collab from "./components/Collab/Collab"
+import Landing from "./components/Landing/Landing";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Router>
       <NavBar />
         <Routes>
-          <Route exact path='/chat' element={<Chat />} />
+        <Route exact path='/' element={<Landing />} />  
+        <Route exact path='/chat' element={<Chat />} />
         <Route exact path='/referral' element={<Referral />} />
         <Route exact path='/collab' element={<Collab />} />
       </Routes>

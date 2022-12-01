@@ -1,4 +1,174 @@
-.Landing{
-    background-image: url('../../../public/LandingImage.jpeg');
+/* .Landing{
+    background-image: url('./LandingImage.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
+    width: 90vw;
+} */
+
+#home{
+    margin-top: 230px;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    
+}
+
+.banner .bottom-gradient{
+    position: absolute;
+    bottom: -105px;
+    left: 20%;
+}
+
+.banner .act-now{
+    position: absolute;
+    margin: 0px;
+    top: 10%;
+    left: 13%;
+}
+
+.banner .act-now p{
+    font-weight: 800;
+    font-size: 70px;
+    margin: 0px;
+    color: rgb(28, 27, 27);
+    /* transform: rotate(270deg); */
+
+}
+
+.banner .banner-main{
+    position: relative;
+    width: 75%;
+    margin: auto;
+}
+
+.banner .banner-main .banner-body{
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.banner .banner-main .banner-light{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.3);
+    left: 2%;
+    bottom: -13%;
+    margin-bottom: 0px;
+}
+
+.banner .banner-body .banner-right{
+    width: 40%;
+}
+
+.banner .banner-body .banner-right img{
+    align-self: flex-end;
+    height: 130%;
+    width: 130%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin: -150px auto 0 auto;
+    transform-origin: bottom;
+}
+
+
+
+.bounce-2 {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+}
+
+
+.banner .banner-body .banner-left{
+    width: 60%;
+}
+
+.banner .banner-body .banner-left h1{
+    font-size: 90px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    /* color: rgb(37, 37, 37); */
+    background: linear-gradient(to right, #f35757 0%,#ec347b 100%);
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+.banner .banner-body .banner-left h2{
+    margin-top: 10px;
+    line-height: 2.7rem;
+    color: rgb(30, 29, 29);
+    font-size: 35px;
+}
+
+.banner .banner-body .banner-left p{
+    margin-top: -20px;
+    width: 85%;
+    color: rgb(54, 53, 53);
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.banner .banner-body .banner-left p span{
+    font-weight: 600;
+}
+
+
+.banner .banner-body .banner-left .bannner-button{
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+}
+
+
+
+.banner .banner-body .banner-left button{
+    width: 210px;
+    margin-top: 25px;
+    padding: 10px 0px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+
+.banner  .banner-body .banner-left .sponsors{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+
+.banner  .banner-body .banner-left .sponsors img{
+    margin-right: 20px;
+}
+
+.banner  .banner-body .banner-left .sponsors .github{
+    margin-top: 10px;
+    width: 80px;
+}
+
+.banner  .banner-body .banner-left .sponsors .stickermule{
+    margin-top: 10px;
+    width: 100px;
+}
+
+.banner  .banner-body .banner-left .sponsors p{
+    font-weight: 800;
+    color: #464747;
+    font-size: 14px;
 }
