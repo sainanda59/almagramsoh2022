@@ -45,8 +45,8 @@ export default function NavBar() {
                 <Link to='/chat' className="nav-link">CHAT</Link>
                 <Link to='/referral' className="nav-link">REFERAL</Link>
                 <Link to='/collab' className="nav-link">COLLAB</Link>
-                <button data-aos="fade-left" data-aos-delay="900"><a href="#pledge" className="nav-link" >PROFILE</a></button>
-                <button onClick={signout} data-aos="fade-left" data-aos-delay="1000"><a href="" className="nav-link" >LOGOUT</a></button>
+                <Link to='/profile' className='nav-link'><button data-aos="fade-left" data-aos-delay="900">PROFILE</button></Link>
+                <button onClick={signout} data-aos="fade-left" data-aos-delay="1000" className='nav-link'>LOGOUT</button>
             </div>
         </div>
     </div>
