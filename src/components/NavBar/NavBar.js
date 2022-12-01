@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
     const [user, setUser]=useState({});
-
+   
     const signInWithGoogle = () => {
         const provider = new GoogleAuthProvider();
         signInWithPopup(authentication, provider);
@@ -32,7 +32,6 @@ export default function NavBar() {
       unsubscribe();
     }
     },[])
-
     if(user){
         return (
             <div className="NavBar" id="NavBar">
@@ -44,8 +43,8 @@ export default function NavBar() {
                 <Link to='/' className="nav-link active">HOME</Link>
                 <Link to='/chat' className="nav-link">CHAT</Link>
                 <Link to='/referral' className="nav-link">REFERAL</Link>
-                <Link to='/collab' className="nav-link">COLLAB</Link>
-                <Link to='/profile' className='nav-link'><button data-aos="fade-left" data-aos-delay="900">PROFILE</button></Link>
+                {/* <Link to='/collab' className="nav-link">COLLAB</Link> */}
+                {/* <Link to='/profile' className='nav-link'><button data-aos="fade-left" data-aos-delay="900">PROFILE</button></Link> */}
                 <button onClick={signout} data-aos="fade-left" data-aos-delay="1000" className='nav-link'>LOGOUT</button>
             </div>
         </div>
