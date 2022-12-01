@@ -44,8 +44,8 @@ export default function NavBar() {
                 <Link to='/chat' className="nav-link">CHAT</Link>
                 <Link to='/referral' className="nav-link">REFERRAL</Link>
                 {/* <Link to='/collab' className="nav-link">COLLAB</Link> */}
-                {/* <Link to='/profile' className='nav-link'><button data-aos="fade-left" data-aos-delay="900">PROFILE</button></Link> */}
-                <button onClick={signout} data-aos="fade-left" data-aos-delay="1000" className='nav-link'>LOGOUT</button>
+                <Link to='/profile' className='nav-link nav-btns'><button data-aos="fade-left" data-aos-delay="900">PROFILE</button></Link>
+                <button onClick={signout} data-aos="fade-left" data-aos-delay="1000" className='nav-link nav-btns'>LOGOUT</button>
             </div>
         </div>
     </div>
@@ -66,3 +66,4 @@ export default function NavBar() {
     )
     }
 }
+

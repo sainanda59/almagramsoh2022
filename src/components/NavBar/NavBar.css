@@ -106,3 +106,8 @@ a{
 .NavBar .logo p{
     color: black;
 }
+
+.nav-btns{
+    color: white;
+    padding: 7px;
+}
