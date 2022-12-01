@@ -6,6 +6,7 @@ import React from 'react';
 import NextBtn from './NextBtn.js';
 import img1 from './img1.jpg';
 import img2 from './img2.jpg';
+import "./Slides.css";
 
 function Slides() {
     var settings = {
@@ -33,27 +34,24 @@ function Slides() {
         ]
       };
   return <div className='slides'>
-      <h1 className='header'>Meet our Nutrition Gang</h1>
         <Slider {...settings} prevArrow={<PrevBtn />} nextArrow={<NextBtn />}>
-            <div>
-                <img src={img2} alt="" />
-                <h1>Kalpanta Mahapatra</h1>
-                <h2>Communication Manager</h2>
-            </div>
-            <div>
+            <div className="image">
                 <img src={img1} alt="" />
-                <h1>Yash Gupta</h1>
-                <h2>Video Editor</h2>
             </div>
-            <div>
-                <img src={img2} alt="" />
-                <h1>Kalpanta Mahapatra</h1>
-                <h2>Communication Manager</h2>
-            </div>
-            <div>
+            <div className="image">
                 <img src={img1} alt="" />
-                <h1>Yash Gupta</h1>
-                <h2>Video Editor</h2>
+            </div>
+            <div className="image">
+                <img src={img1} alt="" />
+            </div>
+            <div className="image">
+                <img src={img1} alt="" />
+            </div>
+            <div className="image">
+                <img src={img1} alt="" />
+            </div>
+            <div className="image">
+                <img src={img1} alt="" />
             </div>
         </Slider>
   </div>;
