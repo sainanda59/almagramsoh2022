@@ -1,0 +1,35 @@
+.previous__btn i{
+    font-size: 2rem;
+    color: #000;
+    transition: 0.3s all ease;
+    /* padding: 24px 10px 25px 28px; */
+    /* padding: 30px */
+    overflow-y: hidden;
+}
+.previous__btn {
+    /* height: 40px;
+    width: 40px; */
+    overflow-y: hidden;
+    height: 80px;
+    border-radius: 100px;
+    width: 80px;
+    /* background-color: #fff; */
+    transition: 0.3s all ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left:3%;
+    z-index: 100;
+    /* border: 1px solid rgba(0, 0, 0, 0.144); */
+}
+.previous__btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+@media(max-width:800px){
+    .previous__btn{
+        left: 0;
+    }
+}

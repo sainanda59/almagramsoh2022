@@ -1,0 +1,33 @@
+.next__btn i{
+    font-size: 2rem;
+    color: #000;
+    transition: 0.3s all ease;
+}
+.next__btn {
+    height: 80px;
+    overflow-y: hidden;
+
+    border-radius: 100px;
+    width: 80px;
+    /* background-color: #fff; */
+    transition: 0.3s all ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    z-index: 100;
+    /* border: 1px solid rgba(0, 0, 0, 0.144); */
+}
+.next__btn i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+
+    /* box-shadow: 2px 17px 27px rgba(0, 0, 0, 0.363); */
+}
+@media(max-width:800px){
+    .next__btn{
+        left: 80%;
+    }
+}
