@@ -16,12 +16,13 @@ function Referral() {
   },[]);
    const name = user.displayName;
    const photo = user.photoURL;
+   console.log(photo);
    const randomNum = random.generate(10);
   return (
     <div id="about" className="about">
         <div className="about-content">
         <div className="photo" data-aos="fade-up" data-aos-delay="900">
-            <img src={photo}></img>
+            <img src={photo} alt='pic'></img>
         </div>
         <div className="name">
           <p> {name} </p>
