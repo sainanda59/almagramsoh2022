@@ -42,7 +42,7 @@ export default function NavBar() {
             <div className="nav-items" id="nav-items">
                 <Link to='/' className="nav-link active">HOME</Link>
                 <Link to='/chat' className="nav-link">CHAT</Link>
-                <Link to='/referral' className="nav-link">REFERAL</Link>
+                <Link to='/referral' className="nav-link">REFERRAL</Link>
                 {/* <Link to='/collab' className="nav-link">COLLAB</Link> */}
                 {/* <Link to='/profile' className='nav-link'><button data-aos="fade-left" data-aos-delay="900">PROFILE</button></Link> */}
                 <button onClick={signout} data-aos="fade-left" data-aos-delay="1000" className='nav-link'>LOGOUT</button>
