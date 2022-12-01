@@ -8,7 +8,7 @@ export default function HomeCard() {
             <div class="col-md-4">
                 <div class="card-content">
                     <div class="card-img">
-                        <img src="https://placeimg.com/380/230/nature" alt=""/>
+                        <img src="https://placeimg.com/380/230/tech" alt=""/>
                     </div>
                     <div class="card-desc">
                         <h3>Heading1</h3>
@@ -21,7 +21,7 @@ export default function HomeCard() {
             <div class="col-md-4">
                 <div class="card-content">
                     <div class="card-img">
-                        <img src="https://placeimg.com/380/230/nature" alt=""/>
+                        <img src="https://placeimg.com/380/230/tech" alt=""/>
                     </div>
                     <div class="card-desc">
                         <h3>Heading1</h3>
@@ -34,7 +34,7 @@ export default function HomeCard() {
             <div class="col-md-4">
                 <div class="card-content">
                     <div class="card-img">
-                        <img src="https://placeimg.com/380/230/nature" alt=""/>
+                        <img src="https://placeimg.com/380/230/tech" alt=""/>
                     </div>
                     <div class="card-desc">
                         <h3>Heading1</h3>
@@ -47,7 +47,7 @@ export default function HomeCard() {
             <div class="col-md-4">
                 <div class="card-content">
                     <div class="card-img">
-                        <img src="https://placeimg.com/380/230/nature" alt=""/>
+                        <img src="https://placeimg.com/380/230/tech" alt=""/>
                     </div>
                     <div class="card-desc">
                         <h3>Heading1</h3>
@@ -60,7 +60,7 @@ export default function HomeCard() {
             <div class="col-md-4">
                 <div class="card-content">
                     <div class="card-img">
-                        <img src="https://placeimg.com/380/230/animals" alt=""/>
+                        <img src="https://placeimg.com/380/230/tech" alt=""/>
                     </div>
                     <div class="card-desc">
                         <h3>Heading2</h3>
@@ -73,7 +73,7 @@ export default function HomeCard() {
             <div class="col-md-4">
                 <div class="card-content">
                     <div class="card-img">
-                        <img src="https://placeimg.com/380/230/animals" alt=""/>
+                        <img src="https://placeimg.com/380/230/tech" alt=""/>
                     </div>
                     <div class="card-desc">
                         <h3>Heading2</h3>
@@ -86,7 +86,7 @@ export default function HomeCard() {
             <div class="col-md-4">
                 <div class="card-content">
                     <div class="card-img">
-                        <img src="https://placeimg.com/380/230/animals" alt=""/>
+                        <img src="https://placeimg.com/380/230/tech" alt=""/>
                     </div>
                     <div class="card-desc">
                         <h3>Heading2</h3>
@@ -99,7 +99,7 @@ export default function HomeCard() {
             <div class="col-md-4">
                 <div class="card-content">
                     <div class="card-img">
-                        <img src="https://placeimg.com/380/230/animals" alt=""/>
+                        <img src="https://placeimg.com/380/230/tech" alt=""/>
                     </div>
                     <div class="card-desc">
                         <h3>Heading2</h3>

@@ -1,0 +1,44 @@
+.about{
+    margin-top: 200px;
+    height: 50vh;
+    width: 98vw;
+}
+
+.about-content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-title{
+    color: rgb(239, 245, 239);
+}
+
+.about-content .name{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 5px;
+     text-align: center;
+
+}
+
+.about-content .photo img{
+    margin-top: 10px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid rgb(241, 242, 238);
+
+}
+
+.ReferralCode{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ReferralCode span{
+    color: brown;
+}
