@@ -6,7 +6,7 @@ function NextBtn(props) {
     // console.log(props);
   return (
     <div className='next__btn' onClick={onClick}>
-        <i className="fas fa-chevron-right"></i>
+        <i class="fas fa-chevron-right"></i>
     </div>
   );
 }
