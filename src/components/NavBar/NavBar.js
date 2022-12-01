@@ -4,6 +4,7 @@ import { authentication } from '../../firebase/firebase';
 import { signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from 'firebase/auth'
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
     const [user, setUser]=useState({});
@@ -40,10 +41,10 @@ export default function NavBar() {
                 <p>ALMAGRAM</p>                
             </div>
             <div className="nav-items" id="nav-items">
-                <a href="#home" className="nav-link active" data-aos="fade-right" data-aos-delay="500">HOME</a>
-                <a href="#impact" className="nav-link" data-aos="fade-right" data-aos-delay="600">CHAT</a>
-                <a href="#motive" className="nav-link" data-aos="fade-down" data-aos-delay="700">REFERAL</a>
-                <a href="#solution" className="nav-link" data-aos="fade-down" data-aos-delay="800">COLLAB</a>
+                <Link to='/' className="nav-link active">HOME</Link>
+                <Link to='/chat' className="nav-link">CHAT</Link>
+                <Link to='/referral' className="nav-link">REFERAL</Link>
+                <Link to='/collab' className="nav-link">COLLAB</Link>
                 <button data-aos="fade-left" data-aos-delay="900"><a href="#pledge" className="nav-link" >PROFILE</a></button>
                 <button onClick={signout} data-aos="fade-left" data-aos-delay="1000"><a href="" className="nav-link" >LOGOUT</a></button>
             </div>
